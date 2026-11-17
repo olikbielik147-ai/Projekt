@@ -20,6 +20,7 @@ const destination = computed(() => {
 <template>
   <section v-if="destination" class="destination">
     <h1>{{ destination.name }}</h1>
+    <button @click="$router.back()">GO BACK</button>
     <div class="destination-details">
       <img :src="'/images/' + destination.image" :alt="destination.name" />
       <p>{{ destination.description }}</p>
