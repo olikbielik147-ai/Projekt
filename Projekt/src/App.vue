@@ -12,3 +12,5 @@ import TheNavigation from './components/TheNavigation.vue'
     <router-view :key="$route.fullPath"></router-view>
   </div>
 </template>
+
+

@@ -15,3 +15,4 @@ const destinations = dataDestinations.destinations
     </router-link>
   </nav>
 </template>
+

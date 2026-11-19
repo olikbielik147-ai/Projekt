@@ -18,3 +18,5 @@ const destinations = dataDestinations.destinations
     </div>
   </div>
 </template>
+
+
